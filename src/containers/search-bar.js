@@ -25,10 +25,10 @@ class SearchBar extends Component {
           <button type="submit" className="btn btn-secondary">Submit</button>
         </span>
       </form>
-    )
+    );
   }
   onInputChange(event) {
-    this.setState({ term: event.target.value })
+    this.setState({ term: event.target.value });
   }
   onFormSubmit(event) {
     event.preventDefault();
